@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "http://localhost:8080/api/$1"
+      "source": "/api/:path*",
+      "destination": "https://media-sequencer-backend-6gqc.onrender.com/api/:path*"
     }
   ]
 }
